@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "image": "/assests/images/livingroom.jpg",
+    "name": "Living Room Set",
+    "category": "decor",
+    "price": 299,
+    "description": "Elegant living room accessories and decorative pieces"
+  },
+  {
+    "id": 2,
+    "image": "/assests/images/sofa.webp",
+    "name": "Modern Sofa",
+    "category": "furniture",
+    "price": 899,
+    "description": "Contemporary furniture for modern living spaces"
+  },
+  {
+    "id": 3,
+    "image": "/assests/images/luxurychair.jpg",
+    "name": "Luxury Chair",
+    "category": "furniture",
+    "price": 499,
+    "description": "Exclusive luxury items for sophisticated interiors"
+  },
+  {
+    "id": 4,
+    "image": "/assests/images/bedroomset.jpg",
+    "name": "Bedroom Set",
+    "category": "furniture",
+    "price": 1299,
+    "description": "Comfortable and stylish bedroom essentials"
+  },
+  {
+    "id": 5,
+    "image": "/assests/images/diningtable.jpg",
+    "name": "Dining Table",
+    "category": "furniture",
+    "price": 799,
+    "description": "Beautiful wooden dining table for family gatherings"
+  },
+  {
+    "id": 6,
+    "image": "/assests/images/kitchencabinet.jpg",
+    "name": "Kitchen Cabinet",
+    "category": "kitchen",
+    "price": 1199,
+    "description": "Modern kitchen storage solution with premium finish"
+  },
+  {
+    "id": 7,
+    "image": "/assests/images/floorlamps.jpg",
+    "name": "Floor Lamp",
+    "category": "lighting",
+    "price": 159,
+    "description": "Stylish floor lamp to brighten up your space"
+  },
+  {
+    "id": 8,
+    "image": "/assests/images/decorativevase.jpg",
+    "name": "Decorative Vase",
+    "category": "decor",
+    "price": 89,
+    "description": "Handcrafted ceramic vase for elegant home decoration"
+  }
+]

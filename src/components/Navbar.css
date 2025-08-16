@@ -1,0 +1,81 @@
+/* Navbar.css */
+
+/* General navbar */
+.header {
+  z-index: 1000;
+}
+
+.navbar {
+  background: #f8f9fa;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+/* Nav links */
+.nav-link {
+  color: #495057;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #2c7a7b;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  border-radius: 0.5rem;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  min-width: 10rem;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.15);
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.175);
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+/* Nested submenu */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .submenu {
+  top: 0;
+  left: 100%;
+  display: none;
+  position: absolute;
+  z-index: 1000;
+}
+
+.dropdown-submenu.show > .submenu {
+  display: block;
+}
+
+/* Wishlist badge */
+.navbar .badge {
+  font-size: 0.65rem;
+  padding: 0.25em 0.4em;
+}
+
+/* Mobile adjustments */
+@media (max-width: 991.98px) {
+  .dropdown-menu {
+    position: static;
+    float: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  .dropdown-submenu > .submenu {
+    position: static;
+    display: block;
+    margin-left: 0;
+  }
+}
